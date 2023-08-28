@@ -14,17 +14,17 @@ const questions = [
   {
     id: 2,
     ques: "How to watch a movie with friends online?",
-    ans: "To see a movie with friends online, install the extension and stream your favorite series. It has amazing features like you can have chat, audio, and video calls while streaming.",
+    ans: "Simply install the extension and log in together to stream your favorite series or movies. It synchronizes the playback.",
   },
   {
     id: 3,
     ques: "How to use teleparty extension?",
-    ans: "It is a very simple and easy process. Firstly install the extension from your web browser and add it to Chrome and then explore the hub of movies from various streaming platforms. ",
+    ans: "It is a quick process. Just download and install the extension to your web browser to explore the hub of movies from various streaming platforms. ",
   },
   {
     id: 4,
     ques: "How to watch HBO Max with family and friends? ",
-    ans: "Firstly, you need to download the extension and then hbomax login and select the movie and then group watch hbo max.",
+    ans: "Download and install the extension to your web browser. Now click on hbomax login  to explore the available movies and shows for group watch hbo max.",
   },
   {
     id: 5,

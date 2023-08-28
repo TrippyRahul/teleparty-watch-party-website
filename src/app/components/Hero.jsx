@@ -36,16 +36,15 @@ const Hero = () => {
       <div className={styles["virtual-party"]}>
         <div className={styles.container}>
           <h2>
-            Watch Party extension is fantastic as it lets you synchronize and
-            watch videos, including TV shows and movies.
+            Watch party extension is an amazing browser as it synchronizes the
+            playback including movies and series.
           </h2>
           <p>
-            Experience the magic of virtual movie nights, connecting with loved
-            ones regardless of the distance. The best part is the ability to
-            create your own personalized watching room, ensuring an
-            uninterrupted and immersive entertainment experience that brings you
-            and your friends closer together in the shared enjoyment of your
-            favorite films and shows.
+            Just explore the magic of movie nights as it will connect you with
+            your loved ones. In this extension, you can create your own
+            customized watching room. Have unlimited and immersive entertainment
+            that will bring you and your buddy closer. You can also share your
+            moments while watching your favorite shows.
           </p>
         </div>
       </div>

@@ -13,20 +13,16 @@ const About = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                This browser extension lets you stream movies and series
-                together with your loved ones at the same time, even if you&apos;re
-                far apart. It has chat, audio, and video call features, so you
-                can react and enjoy the content together in real time. The
-                extension synchronizes playback on your browsers, making it easy
-                to share the entertainment experience with others.
+                Teleparty is a fantastic extension, where you can watch movies
+                together at the same time. It has great features like chat,
+                audio and video calls which synchronizes playback on your
+                browser. Create your fun memories with your family and friends.
               </p>
               <p>
-                This extension is a great tool to watch netflix together with
-                your best buddies along with the other streaming platforms.It
-                also supports watch HBO Max with friends, even if you&apos;re far
-                away from each other. It creates a sense of closeness and shared
-                experience, bringing people closer together while enjoying their
-                favorite shows and movies.
+                In this extension, you can watch netflix together as well as
+                watch HBO Max with friends and family. Enjoy the latest series
+                or movies on various platforms. Save your memory and share your
+                thoughts while streaming your favorite content.
               </p>
             </div>
           </div>

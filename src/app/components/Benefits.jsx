@@ -20,23 +20,21 @@ const Benefits = () => {
         <div className={styles.right}>
           <div className={styles.top}>
             <div className={styles.headings}>
-              <h2>
-                Indulge in the ultimate joy of streaming your favorite shows
-              </h2>
+              <h2>Indulge yourself in the ultimate joy of streaming</h2>
             </div>
             <div className={styles.desc}>
               <p>
-                You can have amazing shows and enjoy them with friends by simply
-                downloading the extension. It has some popular streaming
-                platforms like netflix, teleparty Hulu, amazon prime watch
-                party, HBO max, movies on paramount plus, peacock watch party,
-                hulu watch party and Disney plus watch party.
+                Just download the extension, and watch amazing shows to enjoy
+                unlimited TV series and movies. In this browser, you will find
+                popular streaming platforms including netflix, teleparty Hulu,
+                amazon prime watch party, HBO max, movies on paramount plus,
+                peacock watch party, hulu watch party and Disney plus watch
+                party.
               </p>
               <p>
-                It has great features like you can have a chat or even you can
-                make audio or video calls while watching a movie. You can also
-                create your watching room and share your thoughts with your
-                friends and family.
+                The extension has great features like audio & video calls along
+                with chat. Create your own watching room to share your special
+                moments with your close ones.
               </p>
             </div>
             <div className={styles.btn}>

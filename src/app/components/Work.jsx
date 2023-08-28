@@ -6,53 +6,40 @@ const Work = () => {
   return (
     <div className={styles.work} id="how-it-works">
       <div className={styles.container}>
-        <h2 id="work">
-          How to watch movies together online on teleparty Firefox?
-        </h2>
+        <h2 id="work">How to watch movies together online on teleparty?</h2>
         <h3>
-          To stream movies together on Teleparty using Firefox, follow these
-          steps:
+          To watch movies together on teleparty, you can follow these steps:
         </h3>
 
         <ul className={styles.content}>
+          <li>Install the extension to your Firefox browser</li>
           <li>
-            <span>Install :</span>Go to the Firefox add-ons store and search for
-            &quot;Teleparty&quot;. Click on &quot;Add to Firefox&quot; and follow the instructions
-            to install.
+            Now go to any of your favorite streaming platforms like Netflix,
+            Disney Plus, and many more to{" "}
+            <span> select the show which you want to watch.</span>
           </li>
           <li>
-            <span>Open a movie or series:</span> Go to the streaming platform
-            (e.g., Netflix, Disney Plus, Hulu) and choose the movie or series
-            you want to watch.
+            <span>Start playing </span> the video and click on the teleparty
+            icon
           </li>
           <li>
-            <span>Start the Teleparty: </span>Once the content starts playing,
-            click on the Teleparty icon in the Firefox toolbar to see the party.
+            Generate a unique <span> party link </span>
           </li>
           <li>
-            <span>Create a party link: </span>Click on &quot;Start the party&quot; to
-            generate a unique party link.
+            <span> Share the link </span> with your friends and family
           </li>
           <li>
-            <span>Share the link: </span> Share the party link with your friends
-            with whom you want to join the viewing session.
+            <span>Join the party</span>
           </li>
           <li>
-            <span>Join the party: </span>Your friends will click on the link to
-            join the Teleparty. They must have installed the extension on their
-            browser.
-          </li>
-          <li>
-            <span> Sync and chat:</span> As everyone joins the party, the
-            playback will synchronize, and you can chat and you can even make an
-            audio or video call with your friends in the sidebar while enjoying
-            the movie or series together.
+            It has amazing features including{" "}
+            <span> chat, audio, and video calls </span>
           </li>
         </ul>
 
         <p>
-          It is an easy and simple process. So enjoy the party mode with
-          unlimited movie marathons by using the extension.
+          If you are in the party mode to watch good movies with friends then
+          please follow the below instructions.
         </p>
       </div>
     </div>

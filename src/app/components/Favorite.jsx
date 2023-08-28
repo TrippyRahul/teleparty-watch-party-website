@@ -10,15 +10,13 @@ const Favorite = () => {
           <div className={styles.left}>
             <div className={styles["left-top"]}>
               <div className={styles.headings}>
-                <h2>Time sync</h2>
+                <h2>Watch Together</h2>
               </div>
               <div className={styles.desc}>
                 <p>
-                  If you want to see a movie with your loved ones
-                  simultaneously, you can do so by logging in at the same time.
-                  This allows you to benefit from fast buffering and
-                  high-definition video quality. Get ready to have a stream
-                  party with your friends and family!
+                  Just logging together and share the link with your loved ones
+                  in order to have stream party fun. It will also help in the
+                  fast buffering and high-quality video.
                 </p>
               </div>
             </div>
@@ -58,15 +56,14 @@ const Favorite = () => {
           </div>
           <div className={styles["bottom-right"]}>
             <div className={styles.headings}>
-              <h2>Create your viewing party</h2>
+              <h2>Customize your viewing party</h2>
             </div>
             <div className={styles.desc}>
               <p>
-                Use this tool to create a movie party with friends and loved
-                ones. View unlimited movies and shows together in a virtual
-                space with synchronized playback, real-time chat, and HD video
-                quality. Share laughter, excitement, and unforgettable moments,
-                no matter the distance, and create cherished memories.
+                This is an awesome tool to organize a movie party with your
+                family and friends to view unlimited movies and series together
+                with synchronized playback feature and also have real-time chat,
+                audio,video calls in HD quality.
               </p>
             </div>
           </div>
