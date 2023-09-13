@@ -81,8 +81,7 @@ const page = () => {
         <title> Teleparty extension Vs Scener Chrome extension</title>
         <meta
           name="description"
-          content="STeleparty extension vs Scener Chrome
-          extension is a browser extension where you can enjoy a vast variety of movies on one screen.."
+          content="Teleparty extension vs Scener Chrome extension is a browser extension where you can enjoy a vast variety of movies on one screen. "
         ></meta>
       </head>
       <div className={styles.blog}>
