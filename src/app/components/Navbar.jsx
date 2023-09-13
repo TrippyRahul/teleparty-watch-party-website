@@ -81,6 +81,9 @@ const Navbar = () => {
               <Link href="#how-it-works">How It Works</Link>
             </li>
             <li className={styles.link}>
+              <Link href="/blogs">Blogs</Link>
+            </li>
+            <li className={styles.link}>
               <Link href="/support">Support</Link>
             </li>
           </ul>
