@@ -33,9 +33,13 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> watch netflix together, hbo max
-              party, youtube watch together, teleparty amazon prime, descargar
-              netflix, netflix share play, hbo max watch party on tv
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.watchottparty.com/" target="_blank">
+                watchottparty
+              </a>
+              , watch netflix together, hbo max party, youtube watch together,
+              teleparty amazon prime, descargar netflix, netflix share play, hbo
+              max watch party on tv
             </p>
           </div>
           <ul>
