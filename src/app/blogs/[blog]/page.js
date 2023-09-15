@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "@/app/styles/blog.module.scss";
+import Footer from "@/app/components/Footer";
+import Navbar from "@/app/components/Navbar";
 
 const data = [
   {
@@ -77,6 +79,7 @@ const data = [
 const page = () => {
   return (
     <>
+      <Navbar />
       <head>
         <title> Teleparty extension Vs Scener Chrome extension</title>
         <meta
@@ -87,7 +90,7 @@ const page = () => {
       <div className={styles.blog}>
         <div className={styles.container}>
           <div className={styles.title}>
-            <h2>Teleparty extension Vs Scener Chrome extension</h2>
+            <h1>Teleparty extension Vs Scener Chrome extension</h1>
           </div>
           {data.map((article) => (
             <div className={styles.para} key={article.id}>
@@ -97,6 +100,7 @@ const page = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
