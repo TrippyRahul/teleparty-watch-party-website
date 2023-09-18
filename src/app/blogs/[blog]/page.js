@@ -2,6 +2,7 @@ import React from "react";
 import styles from "@/app/styles/blog.module.scss";
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
+import Header from "@/app/components/Header";
 
 const data = [
   {
@@ -76,21 +77,21 @@ const data = [
   },
 ];
 
+export const metadata = {
+  title: " Teleparty extension Vs Scener Chrome extension ",
+  description:
+    "Teleparty extension vs Scener Chrome extension is a browser extension where you can enjoy a vast variety of movies on one screen",
+};
+
 const page = () => {
   return (
     <>
-      <Navbar />
-      <head>
-        <title> Teleparty extension Vs Scener Chrome extension</title>
-        <meta
-          name="description"
-          content="Teleparty extension vs Scener Chrome extension is a browser extension where you can enjoy a vast variety of movies on one screen."
-        ></meta>
-      </head>
+      <Header />
+
       <div className={styles.blog}>
         <div className={styles.container}>
           <div className={styles.title}>
-            <h1>Teleparty extension Vs Scener Chrome extension</h1>
+            <h2>Teleparty extension Vs Scener Chrome extension</h2>
           </div>
           {data.map((article) => (
             <div className={styles.para} key={article.id}>
