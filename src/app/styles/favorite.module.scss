@@ -1,87 +1,38 @@
+$smaller: 480px;
+$medium: 768px;
+$large: 1024px;
+
+@mixin for-greater-than-smaller {
+  @media (min-width: $smaller) {
+    @content;
+  }
+}
+
+@mixin for-greater-than-medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+@mixin for-greater-than-large {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+
 .favorite{
     overflow: hidden;
     position: relative;
 
+    background: #fafafa;
+    color: #1e1e1e;
+
+    // @include for-greater-than-large(){
+    //     padding: 10rem 0rem;
+    // }
+
     .container{
-        .top{
-            padding: 5rem;
-            z-index: 999;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 10rem;
-
-
-            .left{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                gap: 4rem;
-                flex: 1;
-                
-                .left-top, .left-bottom{
-                    .headings{
-                        margin-bottom: 2rem;
-                        h2{
-                            font-size: 4.7rem;
-                            font-weight: 700;
-                            line-height: 5.5rem;
-                            letter-spacing: 0em;
-                            text-align: left;
-                            
-                        }
-                    }
-                    
-                    .desc{
-                        padding-right: 4rem;
-                        display: flex;
-                        align-items: flex-start;
-                        flex-direction: column;
-                        gap: 2rem;
-                        
-                        p{
-                            font-size: 2.5rem;
-                            font-weight: 400;
-                            line-height: 2.9rem;
-                            letter-spacing: 0em;
-                            text-align: left;
-                            z-index: 99;
-                            
-                            span{
-                                color: #0092D0;
-                            }
-                        }
-                    }
-                }
-            }
-            
-            .right{
-                flex: .5;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                position: relative;
-                
-                .image-container {
-
-                    width: 100%;
-                  
-                    > div {
-                      position: unset !important;
-                    }
-                  
-                    .image {
-                      object-fit: contain;
-                      width: 100% !important;
-                      position: relative !important;
-                      height: unset !important;
-                    }
-                  }
-            }
-        }
+       
 
         .bottom{
             width: 100%;
@@ -137,6 +88,8 @@
                             line-height: 5.5rem;
                             letter-spacing: 0em;
                             text-align: left;
+                            color: #1e1e1e;
+
     
                         }
                     }
@@ -153,6 +106,8 @@
                             line-height: 2.9rem;
                             letter-spacing: 0em;
                             text-align: left;
+                            color: #1e1e1e;
+
 
                             span{
                                 color: #0092D0;

@@ -7,6 +7,7 @@
     padding: 0rem 5rem;
     gap: 1rem;
     font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
 
     .links{
         display: flex;
@@ -60,7 +61,7 @@
 
     .mobileMenuBtn{
 
-        z-index: 99;
+        z-index: 99999;
        display: flex;
        flex-direction: column;
        gap: .8rem;
@@ -100,6 +101,7 @@
 
 
 .mobile{
+    z-index: 999;
     position: absolute;
     top: 0;
     width: 100%;
@@ -112,10 +114,11 @@
     gap: 1rem;
     transition: all .5s ease-in-out;
 
-    background: rgba( 10, 12, 53, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 18px );
-    -webkit-backdrop-filter: blur( 18px );
+    background-color: #181818;
+
+    // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    // backdrop-filter: blur( 18px );
+    // -webkit-backdrop-filter: blur( 18px );
 
 
     
