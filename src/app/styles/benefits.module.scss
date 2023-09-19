@@ -1,5 +1,32 @@
-.benefits{
+$smaller: 480px;
+$medium: 768px;
+$large: 1024px;
 
+@mixin for-greater-than-smaller {
+  @media (min-width: $smaller) {
+    @content;
+  }
+}
+
+@mixin for-greater-than-medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+@mixin for-greater-than-large {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+
+.benefits{
+    background: #fafafa;
+    color: #1e1e1e;
+
+    @include for-greater-than-large(){
+        padding: 10rem 0rem;
+    }
     .container{
         width: 100%;
         height: 100%;
@@ -54,6 +81,8 @@
                         line-height: 5.5rem;
                         letter-spacing: 0em;
                         text-align: left;
+                        color: #1e1e1e;
+
 
                     }
                 }
@@ -64,12 +93,15 @@
                     flex-direction: column;
                     gap: 2rem;
 
+
                     p{
                         font-size: 2.5rem;
                         font-weight: 400;
                         line-height: 2.9rem;
                         letter-spacing: 0em;
                         text-align: left;
+                        color: #1e1e1e;
+
 
                         span{
                            color: #0092D0;

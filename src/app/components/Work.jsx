@@ -2,6 +2,34 @@ import React from "react";
 import styles from "../styles/work.module.scss";
 import Image from "next/image";
 
+const steps = [
+  { id: 1, text: "Install the extension to your Firefox browser" },
+  {
+    id: 2,
+    text: " Now go to any of your favorite streaming platforms like Netflix, Disney Plus, and many more to select the show which you want to watch.",
+  },
+  {
+    id: 3,
+    text: "Start playing the video and click on the teleparty icon",
+  },
+  {
+    id: 4,
+    text: " Generate a unique party link ",
+  },
+  {
+    id: 5,
+    text: " Share the link with your friends and family",
+  },
+  {
+    id: 6,
+    text: "Join the party",
+  },
+  {
+    id: 7,
+    text: "It has amazing features including chat, audio, and video calls ",
+  },
+];
+
 const Work = () => {
   return (
     <div className={styles.work} id="how-it-works">
@@ -12,29 +40,26 @@ const Work = () => {
         </h3>
 
         <ul className={styles.content}>
-          <li>Install the extension to your Firefox browser</li>
-          <li>
-            Now go to any of your favorite streaming platforms like Netflix,
-            Disney Plus, and many more to{" "}
-            <span> select the show which you want to watch.</span>
-          </li>
-          <li>
-            <span>Start playing </span> the video and click on the teleparty
-            icon
-          </li>
-          <li>
-            Generate a unique <span> party link </span>
-          </li>
-          <li>
-            <span> Share the link </span> with your friends and family
-          </li>
-          <li>
-            <span>Join the party</span>
-          </li>
-          <li>
-            It has amazing features including{" "}
-            <span> chat, audio, and video calls </span>
-          </li>
+          {steps.map((step, index) => (
+            <li key={step.id}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="#1e1e1e"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="6" x2="6" y1="4" y2="20" />
+                <polygon points="10,4 20,12 10,20" />
+              </svg>
+
+              {step.text}
+            </li>
+          ))}
         </ul>
 
         <p>

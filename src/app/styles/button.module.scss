@@ -5,7 +5,7 @@
     border-radius: .8rem;
     color:#fff;
     cursor: pointer;
-    background-color: #0092D0;
+    background-color: red;
 
     display: flex;
     align-items: center;
@@ -16,7 +16,7 @@
     &:hover{
         transform: scale(1.1);
         background-color: #fff;
-        color: #0092D0;
+        color: red;
     }
 }
 

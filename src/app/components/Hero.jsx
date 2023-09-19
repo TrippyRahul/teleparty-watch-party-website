@@ -1,55 +1,43 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
+import React from "react";
 import styles from "../styles/Hero.module.scss";
 import Button from "./Button";
+import Image from "next/image";
 
 const Hero = () => {
-  const [bgClass, setBgClass] = useState("");
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setBgClass(styles["hero-mobile"]);
-      } else {
-        setBgClass(styles["hero-large"]);
-      }
-    };
-
-    handleResize();
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
   return (
-    <>
-      <div className={`${styles.hero} ${bgClass}`}>
-        <div className={styles.container}>
-          <div className={styles.content}>
-            <div className={styles["inner-container"]}>
-              <div className={styles.headings}>
-                <h1>
-                  Discover an exciting approach to enjoying movies and series
-                  with watch party extension
-                </h1>
-              </div>
-              <div className={styles.text}>
-                <p>
-                  It is a unique way to enjoy movies and series with this tool.
-                  By this, you can synchronize playback and chat and you can
-                  even audio and video call effortlessly with friends while
-                  immersing yourselves in popular streaming services like Disney
-                  plus watch party, amazon prime watch party, HBO max watch
-                  party, movies on paramount plus, peacock watch party, Netflix
-                  and hulu watch party.
-                </p>
-              </div>
-              <div className={styles.btn}>
-                <Button />
-              </div>
+    <div className={`${styles.hero}`}>
+      <div className={styles.container}>
+        <div className={styles.content}>
+          <div className={styles["left"]}>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/mainphoto.png"
+                alt="about"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </div>
+          <div className={styles["right"]}>
+            <div className={styles.headings}>
+              <h1>
+                Discover an exciting approach to enjoying movies and series with
+                watch party extension
+              </h1>
+            </div>
+            <div className={styles.text}>
+              <p>
+                It is a unique way to enjoy movies and series with this tool. By
+                this, you can synchronize playback and chat and you can even
+                audio and video call effortlessly with friends while immersing
+                yourselves in popular streaming services like Disney plus watch
+                party, amazon prime watch party, HBO max watch party, movies on
+                paramount plus, peacock watch party, Netflix and hulu watch
+                party.
+              </p>
+            </div>
+            <div className={styles.btn}>
+              <Button />
             </div>
           </div>
         </div>
@@ -69,7 +57,72 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    </>
+      <div className={styles.platform}>
+        <h5>Teleparty is available on</h5>
+        <ul>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/netflix.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/youtube.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/hotstar.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/hbo.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/hulu.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+          <li>
+            <div className={styles["image-container"]}>
+              <Image
+                src="/amazon.png"
+                alt="customize"
+                fill={true}
+                className={styles.image}
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

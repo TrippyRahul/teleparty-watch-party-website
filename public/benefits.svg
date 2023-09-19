@@ -54,7 +54,7 @@
 </linearGradient>
 <linearGradient id="paint1_linear_4_234" x1="147.852" y1="55.1347" x2="619.466" y2="418.926" gradientUnits="userSpaceOnUse">
 <stop stop-color="#3FE9C0"/>
-<stop offset="1" stop-color="#FF649C"/>
+<stop offset="1" stop-color="#red"/>
 </linearGradient>
 <clipPath id="clip0_4_234">
 <rect width="636" height="671" fill="white"/>
