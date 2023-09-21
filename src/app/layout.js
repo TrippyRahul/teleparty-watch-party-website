@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/logo.svg" />
+        <link rel="icon" type="image/x-icon" href="/teleparty.svg" />
         <link rel="canonical" href="https://www.teleparty.pro/" />
 
         <meta property="og:url" content="https://www.teleparty.pro/" />
