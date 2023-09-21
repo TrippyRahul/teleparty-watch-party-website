@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/work.module.scss";
-import Image from "next/image";
 
 const steps = [
   { id: 1, text: "Install the extension to your Firefox browser" },
@@ -41,7 +40,9 @@ const Work = () => {
 
         <ul className={styles.content}>
           {steps.map((step, index) => (
-            <li key={step.id}>{index+1}. {step.text}</li>
+            <li key={step.id}>
+              {index + 1}. {step.text}
+            </li>
           ))}
         </ul>
 
