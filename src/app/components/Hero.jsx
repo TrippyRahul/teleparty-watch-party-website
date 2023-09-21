@@ -63,8 +63,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/netflix.png"
-                alt="customize"
+                src="/netflix.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
@@ -73,8 +73,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/youtube.png"
-                alt="customize"
+                src="/youtube.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
@@ -83,8 +83,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/hotstar.png"
-                alt="customize"
+                src="/hotstar.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
@@ -93,8 +93,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/hbo.png"
-                alt="customize"
+                src="/hbo.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
@@ -103,8 +103,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/hulu.png"
-                alt="customize"
+                src="/hulu.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
@@ -113,8 +113,8 @@ const Hero = () => {
           <li>
             <div className={styles["image-container"]}>
               <Image
-                src="/amazon.png"
-                alt="customize"
+                src="/prime.svg"
+                alt="platform"
                 fill={true}
                 className={styles.image}
               />
