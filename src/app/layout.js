@@ -15,6 +15,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/teleparty.svg" />
         <link rel="canonical" href="https://www.teleparty.pro/" />
+        <meta
+          name="google-site-verification"
+          content="ynENXlWtPezmLw33y-47cICDIlytiz2-Gu8xNbKv0mQ"
+        />
 
         <meta property="og:url" content="https://www.teleparty.pro/" />
         <meta property="og:type" content="website" />
