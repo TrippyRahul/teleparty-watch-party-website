@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/footer.module.scss";
+import styles from "@/app/styles/footer.module.scss";
 import Button from "./Button";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
@@ -20,10 +20,6 @@ const Footer = () => {
             />
           </div>
           <h2>Teleparty watch party</h2>
-          <p>
-            Discover an exciting approach to enjoying movies and series with
-            watch party extension
-          </p>
         </div>
 
         <Button />
@@ -50,13 +46,8 @@ const Footer = () => {
           </ul>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span>{" "}
-              <a href="https://www.watchottparty.com/" target="_blank">
-                watchottparty
-              </a>
-              , watch netflix together, hbo max party, youtube watch together,
-              teleparty amazon prime, descargar netflix, netflix share play, hbo
-              max watch party on tv
+              <span>Recherches populaires:</span> regarder netflix a deux,
+              extension netflix party, and comment regarder netflix a deux
             </p>
           </div>
           <ul>
