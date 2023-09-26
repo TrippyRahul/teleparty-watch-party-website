@@ -29,7 +29,7 @@ const About = () => {
           <div className={styles.right}>
             <div className={styles["image-container"]}>
               <Image
-                src="./about.svg"
+                src="/4(1).png"
                 alt="about"
                 fill={true}
                 className={styles.image}

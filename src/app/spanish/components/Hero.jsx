@@ -11,8 +11,8 @@ const Hero = () => {
           <div className={styles["left"]}>
             <div className={styles["image-container"]}>
               <Image
-                src="/mainphoto.png"
-                alt="about"
+                src="/1(1).png"
+                alt="main"
                 fill={true}
                 className={styles.image}
               />
