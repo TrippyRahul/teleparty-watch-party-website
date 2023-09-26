@@ -27,7 +27,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <html lang="de">
+    <html lang="pt">
       <body>
         <Header />
         <Benefits />
