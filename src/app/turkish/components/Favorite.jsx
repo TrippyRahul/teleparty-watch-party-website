@@ -8,19 +8,9 @@ const Favorite = () => {
       <div className={styles.container}>
         <div className={styles.bottom}>
           <div className={styles["bottom-left"]}>
-            <div className={styles.bg}>
-              <div className={styles["bg-image-container"]}>
-                <Image
-                  src="./customize-bg.svg"
-                  alt="customize-bg"
-                  fill={true}
-                  className={styles["bg-image"]}
-                />
-              </div>
-            </div>
             <div className={styles["image-container"]}>
               <Image
-                src="./customize.svg"
+                src="/3(1).png"
                 alt="customize"
                 fill={true}
                 className={styles.image}

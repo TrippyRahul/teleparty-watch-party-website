@@ -13,23 +13,23 @@ const About = () => {
             </div>
             <div className={styles.desc}>
               <p>
-                TeIl s&apos;agit d&apos;une extension de navigateur étonnante où vous
-                pouvez regarder tous vos films préférés ensemble en même temps
-                et en téléchargeant l&apos;extension, elle se synchronisera
-                automatiquement. Grâce à ses fonctionnalités exceptionnelles,
-                notamment le chat, les appels audio et vidéo, vous pouvez
-                partager vos réflexions tout en regardant une émission. Vous
-                pouvez également créer des souvenirs amusants et précieux en
-                organisant une salle de surveillance. Dans cette extension, vous
-                pouvez diffuser toutes les dernières émissions de différentes
-                plateformes.
+                TeIl s&apos;agit d&apos;une extension de navigateur étonnante où
+                vous pouvez regarder tous vos films préférés ensemble en même
+                temps et en téléchargeant l&apos;extension, elle se
+                synchronisera automatiquement. Grâce à ses fonctionnalités
+                exceptionnelles, notamment le chat, les appels audio et vidéo,
+                vous pouvez partager vos réflexions tout en regardant une
+                émission. Vous pouvez également créer des souvenirs amusants et
+                précieux en organisant une salle de surveillance. Dans cette
+                extension, vous pouvez diffuser toutes les dernières émissions
+                de différentes plateformes.
               </p>
             </div>
           </div>
           <div className={styles.right}>
             <div className={styles["image-container"]}>
               <Image
-                src="./about.svg"
+                src="/4(1).png"
                 alt="about"
                 fill={true}
                 className={styles.image}

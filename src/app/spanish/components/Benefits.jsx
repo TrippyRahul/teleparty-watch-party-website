@@ -34,7 +34,7 @@ const Benefits = () => {
         <div className={styles.left}>
           <div className={styles["image-container"]}>
             <Image
-              src="./benefits.svg"
+              src="/2(1).png"
               alt="benefits"
               fill={true}
               className={styles.image}
