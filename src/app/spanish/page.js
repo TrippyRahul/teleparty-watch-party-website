@@ -28,6 +28,73 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="es">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-es"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-ar"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-co"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-pe"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-mx"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-cl"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-uy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-cr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-bo"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-cu"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/spanish"
+          hreflang="es-ma"
+        />
+      </head>
       <body>
         <Header />
         <Benefits />

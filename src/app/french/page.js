@@ -28,6 +28,43 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="fr">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-fr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-be"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-ca"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-ch"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-mc"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/french"
+          hreflang="fr-lu"
+        />
+      </head>
       <body>
         <Header />
         <Benefits />
