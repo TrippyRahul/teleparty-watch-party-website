@@ -28,6 +28,49 @@ export const metadata = {
 const page = () => {
   return (
     <html lang="tr">
+      <head>
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-tr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-bg"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-gr"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-sy"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-iq"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-uz"
+        />
+
+        <link
+          rel="alternate"
+          href="https://www.teleparty.pro/turkish"
+          hreflang="tr-cy"
+        />
+      </head>
       <body>
         <Header />
         <Benefits />

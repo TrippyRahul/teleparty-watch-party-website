@@ -19,8 +19,7 @@ const Support = () => {
       )
       .then(
         (result) => {
-          console.log(result);
-          console.log(result.text);
+          alert("Message sent successfully");
         },
         (error) => {
           console.log(error.text);
