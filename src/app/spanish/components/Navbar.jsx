@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import styles from "@/app/styles/header.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -42,11 +42,11 @@ const Navbar = () => {
           </li>
           <li className={styles.link}>
             <Link href="/support">Support</Link>
-          </li>
+      </li>
         </ul>
-        <a href="#" className={styles.hideBtn}>
+        <span className={styles.hideBtn}>
           <Button />
-        </a>
+        </span>
 
         <div
           className={`${styles.mobileMenuBtn}  ${isOpen && styles.animate}`}

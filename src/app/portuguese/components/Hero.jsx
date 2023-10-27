@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/app/styles/Hero.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const Hero = () => {
