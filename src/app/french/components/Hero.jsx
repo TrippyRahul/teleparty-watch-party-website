@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/app/styles/Hero.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const Hero = () => {
@@ -27,16 +27,16 @@ const Hero = () => {
             </div>
             <div className={styles.text}>
               <p>
-                C&apos;est la meilleure façon de regarder les dernières émissions sur
-                Teleparty. En utilisant cette extension, vous pouvez
-                synchroniser la lecture et elle possède certaines des meilleures
-                fonctionnalités, notamment le chat, les appels audio et vidéo.
-                Ici, vous trouverez tous les services de streaming populaires
-                tels que Disney Plus, Amazon Prime, Hulu, Netflix, Paramount et
-                bien d&apos;autres, où vous pourrez parcourir les dernières
-                émissions, films et séries. Alors, connectez-vous avec vos
-                proches et créez votre propre salle de visionnage pour regarder
-                ensemble.
+                C&apos;est la meilleure façon de regarder les dernières
+                émissions sur Teleparty. En utilisant cette extension, vous
+                pouvez synchroniser la lecture et elle possède certaines des
+                meilleures fonctionnalités, notamment le chat, les appels audio
+                et vidéo. Ici, vous trouverez tous les services de streaming
+                populaires tels que Disney Plus, Amazon Prime, Hulu, Netflix,
+                Paramount et bien d&apos;autres, où vous pourrez parcourir les
+                dernières émissions, films et séries. Alors, connectez-vous avec
+                vos proches et créez votre propre salle de visionnage pour
+                regarder ensemble.
               </p>
             </div>
             <div className={styles.btn}>

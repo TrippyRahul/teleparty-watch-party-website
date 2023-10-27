@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/join.module.scss";
-import Button from "./Button";
+import Button from "@/app/components/Button";
 import Image from "next/image";
 
 const Join = () => {
@@ -16,7 +16,7 @@ const Join = () => {
             </p>
           </div>
           <div className={styles.arrow}>
-            <div className={styles['image-container']}>
+            <div className={styles["image-container"]}>
               <Image
                 src="./arrow.svg"
                 alt="arrow"
