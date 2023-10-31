@@ -1,7 +1,7 @@
 import Schema from "./Schema";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata = {
   title: "Watch together with teleparty extension  ",
@@ -28,6 +28,17 @@ export default function RootLayout({ children }) {
         <meta
           name="google-site-verification"
           content="ynENXlWtPezmLw33y-47cICDIlytiz2-Gu8xNbKv0mQ"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-RE7D09237N" />
+        <Script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-RE7D09237N');
+          `,
+          }}
         />
       </head>
       <body>
