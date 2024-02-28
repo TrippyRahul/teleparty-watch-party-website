@@ -1,0 +1,172 @@
+$smaller: 480px;
+$medium: 768px;
+$large: 1024px;
+
+@mixin for-greater-than-smaller {
+  @media (min-width: $smaller) {
+    @content;
+  }
+}
+
+@mixin for-greater-than-medium {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+@mixin for-greater-than-large {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+.useTeleparty {
+  background: #1e1e1e;
+  color: #ffffff;
+  padding: 10rem 5rem !important;
+  .headings {
+    h2 {
+      font-size: 4.7rem;
+      font-weight: 700;
+      line-height: 5.5rem;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+      text-align: start;
+      padding: 0rem 0rem 5rem 0rem;
+    }
+  }
+
+  @include for-greater-than-large() {
+    padding: 10rem 0rem;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10rem;
+    padding: 10rem 0rem;
+    .left {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      position: relative;
+
+      .videoContainer {
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+      }
+
+      .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 4rem;
+      flex: 1;
+
+      .top {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+
+        .desc {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 2rem;
+
+          p {
+            font-size: 2.5rem;
+            font-weight: 400;
+            line-height: 4rem;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #ffffff;
+
+            span {
+              color: #0092d0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .useTeleparty {
+    .container {
+      justify-content: center;
+      flex-direction: column;
+    }
+    .left,
+    .right {
+      width: 100%;
+    }
+
+    .videoContainer {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .useTeleparty {
+    .headings {
+      h2 {
+        padding: 0rem 0rem 0rem 0rem;
+      }
+    }
+    .left,
+    .right {
+      width: 100%;
+    }
+
+    .videoContainer {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+//

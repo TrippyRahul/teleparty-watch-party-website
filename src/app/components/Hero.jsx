@@ -9,13 +9,11 @@ const Hero = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles["left"]}>
-            <div className={styles["image-container"]}>
-              <Image
-                src="/1(1).png"
-                alt="main"
-                fill={true}
-                className={styles.image}
-              />
+            <div className={styles.videoContainer}>
+              <video src="/stream.mp4" className={styles.video} autoPlay muted>
+                <source type="/allScreen.mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
           <div className={styles["right"]}>
