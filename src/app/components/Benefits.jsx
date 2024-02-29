@@ -10,7 +10,7 @@ const Benefits = () => {
         <div className={styles.right}>
           <div className={styles.top}>
             <div className={styles.headings}>
-              <h2>Indulge yourself in the ultimate joy of streaming</h2>
+              <h1>Indulge yourself in the ultimate joy of streaming</h1>
             </div>
             <div className={styles.desc}>
               <p>
