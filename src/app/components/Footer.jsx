@@ -19,7 +19,7 @@ const Footer = () => {
           <h2>I&apos;m ready Give me Telaparty</h2>
           <div className={styles.giveTelepartyBtn}>
             <Button />
-            <Link href="/">
+            <Link href="/blog">
               {" "}
               <button>Blog</button>
             </Link>

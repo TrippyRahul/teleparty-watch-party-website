@@ -15,7 +15,7 @@ const SharedLink = () => {
         <div className={styles.left}>
           <div className={styles.videoContainer}>
             {" "}
-            <video src="/video.mp4" className={styles.video} autoPlay muted>
+            <video src="/video.mp4" className={styles.video} autoPlay muted controls>
               <source type="video/mp4" />
               Your browser does not support the video tag.
             </video>

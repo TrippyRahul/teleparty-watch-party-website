@@ -10,7 +10,7 @@ const Hero = () => {
         <div className={styles.content}>
           <div className={styles["left"]}>
             <div className={styles.videoContainer}>
-              <video src="/stream.mp4" className={styles.video} autoPlay muted>
+              <video src="/stream.mp4" className={styles.video} controls autoPlay muted>
                 <source type="/allScreen.mp4" />
                 Your browser does not support the video tag.
               </video>

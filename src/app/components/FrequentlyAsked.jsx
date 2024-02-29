@@ -31,7 +31,7 @@ const Features = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.videoContainer}>
-            <video src="/allScreen.mp4" className={styles.video} autoPlay muted>
+            <video src="/allScreen.mp4" className={styles.video} controls autoPlay muted>
               <source type="/allScreen.mp4" />
               Your browser does not support the video tag.
             </video>

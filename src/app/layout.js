@@ -5,11 +5,13 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Teleparty Extension | Explore Netflix, HBO Max, Amazon Prime Video, and more together ",
+  title:
+    "Teleparty Extension | Explore Netflix, HBO Max, Amazon Prime Video, and more together ",
   description:
-    "Unite with friends and family on virtual movie night with teleparty extension and create a special memory",
+    "Teleparty Extension is the best way to binge your favorite movies and series on one platform",
   openGraph: {
-    title: "Teleparty Extension | Watch HBO Max, Youtube, Netflix, Amazon Prime Video, and many more with your friends",
+    title:
+      "Teleparty Extension | Watch HBO Max, Youtube, Netflix, Amazon Prime Video, and many more with your friends",
     description:
       "Teleparty Extension is the best way to connect with your loved ones who live apart. Here you can stream your most awaited movies and discuss them with your friends at the same time ",
     url: "https://www.teleparty.pro/",
@@ -19,8 +21,9 @@ export const metadata = {
   alternates: {
     canonical: "https://www.teleparty.pro/",
   },
-  keywords:"Teleparty, Teleparty Extension, Teleparty Extension Chrome, Teleparty Chrome Extension, How to use Teleparty, Install Teleparty, Netflix party,Teleparty Chrome Extension"
- };
+  keywords:
+    "Teleparty, Teleparty Extension, Teleparty Extension Chrome, Teleparty Chrome Extension, How to use Teleparty, Install Teleparty, Netflix party,Teleparty Chrome Extension",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -43,12 +46,23 @@ export default function RootLayout({ children }) {
           `,
           }}
         />
-        <Script id="schema" type="application/ld+json">{`@context":"https://schema.org/","@type":"WebSite","name":"Teleparty","url":"https://www.teleparty.pro/`}</Script>
-
+        <Script
+          id="schema"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+              @context: https://schema.org/,
+              @type: WebSite,
+              name: Teleparty,
+              url: https://www.teleparty.pro/,
+              
+         `,
+          }}
+        />
       </head>
       <body>
         <Schema />
-        <Header/>
+        <Header />
         {children}
       </body>
     </html>

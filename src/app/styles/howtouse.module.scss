@@ -34,6 +34,7 @@ $large: 1024px;
     }
     p {
       font-size: 1.8rem;
+      line-height: 3.5rem;
     }
   }
 
@@ -117,12 +118,10 @@ $large: 1024px;
 
 @media screen and (max-width: $smaller) {
   .HowToUse {
-
     display: flex;
     flex-direction: column;
     gap: 8rem;
     .container {
-
       display: flex;
       flex-direction: column;
     }

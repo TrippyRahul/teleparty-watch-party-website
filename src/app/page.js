@@ -13,14 +13,11 @@ import Hero from "./components/Hero";
 export default function Home() {
   return (
     <>
-      <Hero />
       <Benefits />
+      <HowToUse />
       <UseTeleparty />
       <Favorite />
-      <HowToUse />
-      <Work />
       <About />
-      <FrequentlyAsked />
       <SharedLink />
       <Features />
       <Footer />
