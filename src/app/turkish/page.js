@@ -20,67 +20,33 @@ export const metadata = {
     type: "website",
     images: "https://www.teleparty.pro/main-logo.svg",
   },
+  htmlAttributes: {
+    lang: "tr",
+  },
+  metadataBase: new URL("https://www.teleparty.pro/turkish"),
   alternates: {
-    canonical: "https://www.teleparty.pro/turkish",
+    canonical: "/",
+    turkish: [
+      { href: "/", hreflang: "tr-tr" },
+      { href: "/", hreflang: "tr-bg" },
+      { href: "/", hreflang: "tr-gr" },
+      { href: "/", hreflang: "tr-sy" },
+      { href: "/", hreflang: "tr-iq" },
+      { href: "/", hreflang: "tr-uz" },
+      { href: "/", hreflang: "tr-cy" },
+    ],
   },
 };
 
 const page = () => {
   return (
-    <html lang="tr">
-      <head>
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-tr"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-bg"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-gr"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-sy"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-iq"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-uz"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/turkish"
-          hreflang="tr-cy"
-        />
-      </head>
-      <body>
-        <Header />
-        <Benefits />
-        <Favorite />
-        <Comments />
-        <About />
-        <Accordian />
-        <Footer />
-      </body>
-    </html>
+    <>
+      <Benefits />
+      <Favorite />
+      <Comments />
+      <About />
+      <Accordian />
+    </>
   );
 };
 

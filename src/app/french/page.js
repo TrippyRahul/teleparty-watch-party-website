@@ -1,9 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Benefits from "./components/Benefits";
 import Favorite from "./components/Favorite";
-import Work from "./components/Work";
 import Accordian from "./components/Accordian";
 import About from "./components/About";
 import Comments from "./components/Comments";
@@ -20,61 +18,33 @@ export const metadata = {
     type: "website",
     images: "https://www.teleparty.pro/main-logo.svg",
   },
+  htmlAttributes: {
+    lang: "fr",
+  },
+  metadataBase: new URL("https://www.teleparty.pro/french"),
   alternates: {
-    canonical: "https://www.teleparty.pro/french",
+    canonical: "/",
+    french: [
+      { href: "/", hreflang: "fr-fr" },
+      { href: "/", hreflang: "fr-be" },
+      { href: "/", hreflang: "fr-ca" },
+      { href: "/", hreflang: "fr-ch" },
+      { href: "/", hreflang: "fr-mc" },
+      { href: "/", hreflang: "fr-lu" },
+    ],
   },
 };
 
 const page = () => {
   return (
-    <html lang="fr">
-      <head>
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-fr"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-be"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-ca"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-ch"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-mc"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/french"
-          hreflang="fr-lu"
-        />
-      </head>
-      <body>
-        <Header />
-        <Benefits />
-        <Favorite />
-        <Comments />
-        <About />
-        <Accordian />
-        <Footer />
-      </body>
-    </html>
+    <>
+      <Benefits />
+      <Favorite />
+      <Comments />
+      <About />
+      <Accordian />
+      <Footer />
+    </>
   );
 };
 

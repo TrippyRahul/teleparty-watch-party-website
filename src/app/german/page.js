@@ -20,49 +20,31 @@ export const metadata = {
     type: "website",
     images: "https://www.teleparty.pro/main-logo.svg",
   },
+  htmlAttributes: {
+    lang: "de",
+  },
+  metadataBase: new URL("https://www.teleparty.pro/german"),
   alternates: {
-    canonical: "https://www.teleparty.pro/german",
+    canonical: "/",
+    turkish: [
+      { href: "/", hreflang: "de-de" },
+      { href: "/", hreflang: "de-lu" },
+      { href: "/", hreflang: "de-li" },
+      { href: "/", hreflang: "de-at" },
+    ],
   },
 };
 
 const page = () => {
   return (
-    <html lang="de">
-      <head>
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/german"
-          hreflang="de-de"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/german"
-          hreflang="de-lu"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/german"
-          hreflang="de-li"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/german"
-          hreflang="de-at"
-        />
-      </head>
-      <body>
-        <Header />
-        <Benefits />
-        <Favorite />
-        <Comments />
-        <About />
-        <Accordian />
-        <Footer />
-      </body>
-    </html>
+    <>
+      <Benefits />
+      <Favorite />
+      <Comments />
+      <About />
+      <Accordian />
+      <Footer />
+    </>
   );
 };
 

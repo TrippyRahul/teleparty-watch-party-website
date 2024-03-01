@@ -56,6 +56,27 @@
     }
   }
 
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    .lang {
+      border: 1px solid gray;
+      padding: 0.8rem 2.5rem;
+      border-radius: 3rem;
+      background: none;
+      appearance: none;
+      cursor: pointer;
+      outline: none;
+
+      option:checked {
+        background-color: #ccc;
+        color: #fff;
+      }
+    }
+  }
+
   .mobileMenuBtn {
     z-index: 99999;
     display: flex;
@@ -159,9 +180,9 @@
       }
     }
 
-    // .hideBtn {
-    //   display: none;
-    // }
+    .hideBtn {
+      display: none;
+    }
 
     .btn {
       display: none !important;

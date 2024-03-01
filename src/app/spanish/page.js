@@ -1,9 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Benefits from "./components/Benefits";
 import Favorite from "./components/Favorite";
-import Work from "./components/Work";
 import Accordian from "./components/Accordian";
 import About from "./components/About";
 import Comments from "./components/Comments";
@@ -20,91 +18,38 @@ export const metadata = {
     type: "website",
     images: "https://www.teleparty.pro/main-logo.svg",
   },
+  htmlAttributes: {
+    lang: "es",
+  },
+  metadataBase: new URL("https://www.teleparty.pro/spanish"),
   alternates: {
-    canonical: "https://www.teleparty.pro/portuguese",
+    canonical: "/",
+    turkish: [
+      { href: "/", hreflang: "es-es" },
+      { href: "/", hreflang: "es-ar" },
+      { href: "/", hreflang: "es-co" },
+      { href: "/", hreflang: "es-pe" },
+      { href: "/", hreflang: "es-mx" },
+      { href: "/", hreflang: "es-cl" },
+      { href: "/", hreflang: "es-uy" },
+      { href: "/", hreflang: "es-cr" },
+      { href: "/", hreflang: "es-bo" },
+      { href: "/", hreflang: "es-cu" },
+      { href: "/", hreflang: "es-ma" },
+    ],
   },
 };
 
 const page = () => {
   return (
-    <html lang="es">
-      <head>
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-es"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-ar"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-co"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-pe"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-mx"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-cl"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-uy"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-cr"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-bo"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-cu"
-        />
-
-        <link
-          rel="alternate"
-          href="https://www.teleparty.pro/spanish"
-          hreflang="es-ma"
-        />
-      </head>
-      <body>
-        <Header />
-        <Benefits />
-        <Favorite />
-        <Comments />
-        <About />
-        <Accordian />
-        <Footer />
-      </body>
-    </html>
+    <>
+      <Benefits />
+      <Favorite />
+      <Comments />
+      <About />
+      <Accordian />
+      <Footer />
+    </>
   );
 };
 

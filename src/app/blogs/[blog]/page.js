@@ -2,7 +2,6 @@ import React from "react";
 import styles from "@/app/styles/blog.module.scss";
 import Footer from "@/app/components/Footer";
 import Navbar from "@/app/components/Navbar";
-import Header from "@/app/components/Header";
 
 const data = [
   {
@@ -86,8 +85,6 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      <Header />
-
       <div className={styles.blog}>
         <div className={styles.container}>
           <div className={styles.title}>

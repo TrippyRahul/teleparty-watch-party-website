@@ -1,8 +1,8 @@
-import React from "react";
 import styles from "../styles/header.module.scss";
 import Button from "./Button";
 import Link from "next/link";
 import Image from "next/image";
+import Language from "./Language";
 
 const Navbar = () => {
   return (
@@ -22,9 +22,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div href="#" className={styles.hideBtn}>
-          <Button />
-        </div>
+
+        <ul className={styles.actions}>
+          <Language />
+          <div href="#" className={styles.hideBtn}>
+            <Button />
+          </div>
+        </ul>
       </nav>
       <div className={styles.navInfo}>
         <p>Use Teleparty To Start Your Party With Your Friends And Family</p>

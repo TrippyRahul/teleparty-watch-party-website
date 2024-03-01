@@ -19,7 +19,7 @@ const questions = [
     ans: "Easily enough, joining the watch party is straightforward. Firstly, you should download and install the Teleparty extension, then access the streaming service that the host is planning the watch party for by logging in. Lastly, to easily participate, tap the link that the host supplied you for the invitation and watch latest movies and shows in high-definition on teleparty google chrome extension",
   },
 ];
-const Features = () => {
+const FrequentlyAsked = () => {
   return (
     <div className={styles.features} id="features">
       <div className={styles.headings}>
@@ -31,7 +31,13 @@ const Features = () => {
         </div>
         <div className={styles.left}>
           <div className={styles.videoContainer}>
-            <video src="/allScreen.mp4" className={styles.video} controls autoPlay muted>
+            <video
+              src="/allScreen.mp4"
+              className={styles.video}
+              controls
+              autoPlay
+              muted
+            >
               <source type="/allScreen.mp4" />
               Your browser does not support the video tag.
             </video>
@@ -42,4 +48,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default FrequentlyAsked;
