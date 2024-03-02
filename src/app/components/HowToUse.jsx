@@ -34,39 +34,32 @@ const questions = [
     ans: "Finally, tap the Teleparty invitation after logging into your streaming account. Please make sure you have the relevant extension configured before joining the watch party. Clicking the watch party link will take you to the watch party if the extension is already installed. ",
   },
 ];
-const HowToUse = () => {
+const HowToUse = ({ data }) => {
   return (
     <div className={styles.HowToUse} id="HowToUse">
       <div className={styles.headings}>
-        <h2>What Is Teleparty And How To Use It?</h2>
-        <p>
-          With the help of Teleparty, you may watch movies remotely with your
-          friends and family. It also provides live chat and synchronizes
-          content playback with your preferred streaming websites. With
-          teleparty chrome extension, you can enjoy a romantic movie date night
-          with your partner, even if you are miles apart. It easily connects you
-          with your distant friends and family in case you are unable to
-          celebrate any occasion or milestone with them. Furthermore, Teleparty
-          Extension is a modern option for consumers seeking several forms of
-          entertainment. This plugin is performance-oriented and easy to use.
-          One of its amazing features is that it may connect you and your loved
-          ones from anywhere in the world. Furthermore, this web extension
-          teleparty runs smoothly on chrome and firefox platforms. An individual
-          can use this to arrange a virtual viewing party for up to 100 guests.
-          Now, follow the instructions below to use it successfully.
-        </p>
+        <h2>{data.title}</h2>
+        {data.desc.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
       </div>
       <div className={styles.container}>
         <div className={styles.left}>
           <div className={styles.videoContainer}>
-            <video src="/video.mp4" className={styles.video} autoPlay muted controls>
+            <video
+              src="/video.mp4"
+              className={styles.video}
+              autoPlay
+              muted
+              controls
+            >
               <source type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
         </div>
         <div className={styles.right}>
-          <Accordian questions={questions} />
+          <Accordian questions={data?.questions} />
         </div>
       </div>
     </div>

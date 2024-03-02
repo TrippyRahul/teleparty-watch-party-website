@@ -22,6 +22,8 @@ export const metadata = {
   alternates: {
     canonical: "https://www.teleparty.pro/",
   },
+  metadataBase: new URL("https://www.teleparty.pro/"),
+
   keywords:
     "Teleparty, Teleparty Extension, Teleparty Extension Chrome, Teleparty Chrome Extension, How to use Teleparty, Install Teleparty, Netflix party,Teleparty Chrome Extension",
 };

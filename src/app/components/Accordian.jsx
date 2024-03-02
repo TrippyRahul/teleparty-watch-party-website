@@ -22,7 +22,7 @@ const Accordian = ({ questions }) => {
         {/* <h2>FREQUENTLY ASKED QUESTION</h2> */}
 
         <ol>
-          {questions.map((question) => (
+          {questions?.map((question) => (
             <li key={question.id} onClick={() => toggleAnswer(question.id)}>
               <div className={styles.question}>
                 <p>{question.ques}</p>
@@ -44,9 +44,6 @@ const Accordian = ({ questions }) => {
                   <p>{question.ans}</p>
                 </div>
               )}
-
-              {/*
-               */}
             </li>
           ))}
         </ol>

@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styles from "../styles/support.module.scss";
 import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Footer from "@/app//components/Footer";
 
 const Support = () => {
   const sendEmail = (e) => {
@@ -29,7 +29,6 @@ const Support = () => {
   };
   return (
     <>
-      <Header />
       <div className={styles.contact}>
         <div className={styles.container}>
           <h2>Contact Us</h2>

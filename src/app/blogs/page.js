@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "@/app/styles/blogs.module.scss";
 import Link from "next/link";
-import Header from "../components/Header";
-
-import Footer from "../components/Footer";
+import Footer from "@/app/components/Footer";
 
 const blogsData = [
   {
