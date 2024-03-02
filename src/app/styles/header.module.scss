@@ -69,11 +69,10 @@
       appearance: none;
       cursor: pointer;
       outline: none;
+      background-color: #000;
+      color: #fff;
 
-      option:checked {
-        background-color: #ccc;
-        color: #fff;
-      }
+     
     }
   }
 

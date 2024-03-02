@@ -65,9 +65,9 @@ const data = {
       ],
     },
     {
-      title: "Watch Together",
+      title: "Customize your viewing party",
       desc: [
-        "Just logging together and share the link with your loved ones in order to have stream party fun. It will also help in the fast buffering and high-quality video.",
+        "This is an awesome tool to organize a movie party with your family and friends to view unlimited movies and series together with synchronized playback feature and also have real-time chat, audio,video calls in HD quality.",
       ],
     },
   ],
