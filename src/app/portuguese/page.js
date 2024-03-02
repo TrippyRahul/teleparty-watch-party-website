@@ -11,8 +11,7 @@ import styles from "@/app/styles/about.module.scss";
 import Image from "next/image";
 
 export const metadata = {
-  title:
-    "Teleparty Extension | Explorar Netflix, HBO Max, Amazon Prime Video, e muito mais juntos  ",
+  title: "Teleparty Extension | Explorar Netflix, Hulu + mais juntos",
   description:
     "Teleparty Extension é a melhor maneira de assistir seus filmes e séries favoritos em uma plataforma.    ",
   keywords:

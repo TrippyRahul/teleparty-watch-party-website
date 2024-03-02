@@ -9,8 +9,7 @@ import styles from "@/app/styles/about.module.scss";
 import Image from "next/image";
 
 export const metadata = {
-  title:
-    " Teleparty Extension | Keşfetmek Netflix, HBO Max, Amazon Prime Video, ve daha fazlası birlikte",
+  title: "Teleparty Extension | Keşfetmek Netflix, Hulu + daha fazla birlikte",
   description:
     "Teleparty Extension En sevdiğiniz filmleri ve dizileri tek bir platformda birleştirmenin en iyi yoludur.",
   keywords:
