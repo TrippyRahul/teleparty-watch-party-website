@@ -6,7 +6,7 @@ const UseTeleparty = ({ data }) => {
   return (
     <div className={styles.useTeleparty} id="useTeleparty">
       <div className={styles.headings}>
-        <h2>{data?.title}</h2>
+        <h1>{data?.title}</h1>
       </div>
       <div className={styles.container}>
         <div className={styles.right}>

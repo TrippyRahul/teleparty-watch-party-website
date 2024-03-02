@@ -6,8 +6,7 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
-  title:
-    "Teleparty Extension | Explore Netflix, HBO Max, Amazon Prime Video, and more together ",
+  title: "Teleparty Extension | Explore Netflix, Hulu + more together  ",
   description:
     "Teleparty Extension is the best way to binge your favorite movies and series on one platform",
   openGraph: {
@@ -19,10 +18,10 @@ export const metadata = {
     type: "website",
     images: "https://www.teleparty.pro/main-logo.svg",
   },
-  alternates: {
-    canonical: "https://www.teleparty.pro/",
-  },
   metadataBase: new URL("https://www.teleparty.pro/"),
+  alternates: {
+    canonical: "/",
+  },
 
   keywords:
     "Teleparty, Teleparty Extension, Teleparty Extension Chrome, Teleparty Chrome Extension, How to use Teleparty, Install Teleparty, Netflix party,Teleparty Chrome Extension",

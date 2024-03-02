@@ -47,6 +47,23 @@ const Footer = ({ data }) => {
                 Privacy
               </Link>
             </div>
+            <div className={styles.giveTelepartyBtn}>
+              <Link href="/french" className={styles.btn}>
+                French
+              </Link>
+              <Link href="/turkish" className={styles.btn}>
+                Trukish
+              </Link>
+              <Link href="/spanish" className={styles.btn}>
+                Spanish
+              </Link>
+              <Link href="/portuguese" className={styles.btn}>
+                Portuguese
+              </Link>
+              <Link href="/german" className={styles.btn}>
+                German
+              </Link>
+            </div>
           </div>
 
           <hr className={styles.line} style={{ color: "gray" }} />
