@@ -43,7 +43,7 @@ const data = {
   useTeleparty: {
     title:
       "Explorez Teleparty pour visionner vos films les plus attendus avec vos amis et votre famille",
-    desc: "En téléchargeant simplement le Teleparty Chrome vous pouvez planifier votre soirée cinéma avec vos proches. Vous y trouverez plusieurs plateformes de streaming dont  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre autres services. La meilleure partie, c'est que vous pouvez également organiser une soirée de visionnage où vous pouvez non seulement vous gaver de votre film préféré, mais également avoir une conversation et envoyer des emojis amusants. Vous aurez l'impression qu'ils sont simplement assis avec vous. Il s’agit d’un site Web très simple à utiliser et convivial.    ",
+    desc: "<p>En téléchargeant simplement le <a href='/french'>Teleparty</a> Chrome vous pouvez planifier votre soirée cinéma avec vos proches. Vous y trouverez plusieurs plateformes de streaming dont  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre autres services. La meilleure partie, c'est que vous pouvez également organiser une soirée de visionnage où vous pouvez non seulement vous gaver de votre film préféré, mais également avoir une conversation et envoyer des emojis amusants. Vous aurez l'impression qu'ils sont simplement assis avec vous. Il s’agit d’un site Web très simple à utiliser et convivial. </p> ",
   },
   howToUse: {
     title: "Comment utiliser Teleparty    ",

@@ -10,7 +10,7 @@ const Benefits = ({ data }) => {
         <div className={styles.right}>
           <div className={styles.top}>
             <div className={styles.headings}>
-              <h1>{data.title}</h1>
+              <h2>{data.title}</h2>
             </div>
             <div className={styles.desc}>
               {data.desc.map((item, index) => (

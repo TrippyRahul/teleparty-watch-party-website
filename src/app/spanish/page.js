@@ -50,7 +50,7 @@ const data = {
   useTeleparty: {
     title:
       "Experimenta Teleparty y transmite tus películas favoritas con tus amigos y familiares    ",
-    desc: "Descargar el Teleparty Chrome, entonces podrás planificar tu noche de cine con tus seres queridos. Allí tendrás las múltiples plataformas de transmisión, incluidas Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre otros servicios. También puedes organizar una fiesta para ver tu película favorita y compartir emojis divertidos mientras conversas. Se sentirá como si simplemente estuvieran sentados contigo. ",
+    desc: "<p>Descargar el <a href='/spanish'> Teleparty </a> Chrome, entonces podrás planificar tu noche de cine con tus seres queridos. Allí tendrás las múltiples plataformas de transmisión, incluidas Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre otros servicios. También puedes organizar una fiesta para ver tu película favorita y compartir emojis divertidos mientras conversas. Se sentirá como si simplemente estuvieran sentados contigo. </p>",
   },
 
   howToUse: {

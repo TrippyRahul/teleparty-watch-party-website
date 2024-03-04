@@ -7,3 +7,6 @@ Disallow: /accounts
 # Allow all crawlers
 User-agent: *
 Allow: /
+
+
+https://www.teleparty.pro/sitemap.xml

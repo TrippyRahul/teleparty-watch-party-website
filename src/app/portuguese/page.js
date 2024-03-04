@@ -44,7 +44,7 @@ const data = {
   useTeleparty: {
     title:
       "Descubra o Teleparty e transmita seus filmes favoritos com seus amigos e familiares    ",
-    desc: "Basta baixar o Teleparty Chrome, você pode planejar sua noite de cinema com seus entes queridos. Existem várias plataformas de streaming, como  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre outros serviços. Você também pode organizar uma festa para assistir seu filme favorito e compartilhar emojis engraçados enquanto discutem. Será como se eles estivessem apenas sentados com você. ",
+    desc: "<p>Basta baixar o <a href='/portuguese'> Teleparty </a> Chrome, você pode planejar sua noite de cinema com seus entes queridos. Existem várias plataformas de streaming, como  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, entre outros serviços. Você também pode organizar uma festa para assistir seu filme favorito e compartilhar emojis engraçados enquanto discutem. Será como se eles estivessem apenas sentados com você.</p> ",
   },
   howToUse: {
     title: "Como usar o Teleparty extension     ",

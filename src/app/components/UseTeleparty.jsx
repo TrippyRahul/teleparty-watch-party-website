@@ -11,9 +11,12 @@ const UseTeleparty = ({ data }) => {
       <div className={styles.container}>
         <div className={styles.right}>
           <div className={styles.top}>
-            <div className={styles.desc}>
-              <p>{data?.desc}</p>
-            </div>
+            <div
+              dangerouslySetInnerHTML={{
+                __html: data?.desc,
+              }}
+              className={styles.desc}
+            />
             <div className={styles.btn}>
               <Button />
             </div>

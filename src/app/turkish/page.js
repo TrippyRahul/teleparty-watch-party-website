@@ -45,7 +45,7 @@ const data = {
   useTeleparty: {
     title:
       "Teleparty'yi keşfedin ve en sevdiğiniz filmleri arkadaşlarınız ve ailenizle izleyin",
-    desc: "İndir Teleparty Chrome ve sevdiklerinizle film gecenizi planlayın. Filmleri birden fazla akış platformunda yayınlayın:  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, diğer hizmetlerin yanı sıra. Ayrıca bir izleme partisi düzenleyebilir, en sevdiğiniz filmi izleyebilir ve tartışırken komik emojiler paylaşabilirsiniz. Sanki yanınızda oturuyorlarmış gibi hissedeceksiniz.",
+    desc: "<p>İndir <a href='/turkish'> Teleparty </a> Chrome ve sevdiklerinizle film gecenizi planlayın. Filmleri birden fazla akış platformunda yayınlayın:  Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, diğer hizmetlerin yanı sıra. Ayrıca bir izleme partisi düzenleyebilir, en sevdiğiniz filmi izleyebilir ve tartışırken komik emojiler paylaşabilirsiniz. Sanki yanınızda oturuyorlarmış gibi hissedeceksiniz.</p>",
   },
   benefits: {
     title: "Indulge yourself in the ultimate joy of streaming",

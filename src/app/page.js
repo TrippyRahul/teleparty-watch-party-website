@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 const data = {
   useTeleparty: {
     title: "Use Teleparty To Start Your Party With Your Friends And Family",
-    desc: " Many families worldwide have their own ritual and tradition of movie nights. But when years pass, some family members settle in different states or countries. in such scenarios, uploading the movie night tradition gets a little tricky. If you belong to one such families and wishes to connect with your loved ones then Teleparty chrome is the solution you are looking for. Watch everything you want on Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, among other streaming services. Host virtual movie dates with your friends and family with an easy-to-use UI.",
+    desc: "<p> Many families worldwide have their own ritual and tradition of movie nights. But when years pass, some family members settle in different states or countries. in such scenarios, uploading the movie night tradition gets a little tricky. If you belong to one such families and wishes to connect with your loved ones then <a href='/'> Teleparty </a>chrome is the solution you are looking for. Watch everything you want on Netflix, Hulu, Prime Video, HBP Max, Disney Plus, Peacock TV, and Paramount Plus, among other streaming services. Host virtual movie dates with your friends and family with an easy-to-use UI.</p>",
   },
   benefits: {
     title: "Indulge yourself in the ultimate joy of streaming",

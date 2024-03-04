@@ -46,6 +46,9 @@ const Footer = ({ data }) => {
               <Link href="/privacy" className={styles.btn}>
                 Privacy
               </Link>
+              <Link href="/support" className={styles.btn}>
+                Contact Us
+              </Link>
             </div>
           </div>
 
@@ -56,9 +59,27 @@ const Footer = ({ data }) => {
               <p>
                 <span>
                   {data?.popularSearches?.title || "Popular searches"}:
-                </span>{" "}
-                {data?.popularSearches?.desc ||
-                  "Teleparty,Teleparty Extension,Teleparty Chrome Extension, How to use Teleparty, Install Teleparty, Netflix Party, Netflix Watch Party, Netflix Party Extension, Netflix Party Chrome Extension, How to Netflix Party, How to use Netflix Party, How to do Netflix Party, How to do a Netflix Party, How to Watch Netflix Together, Hulu Watch Party, Hulu Party, Watch Party Hulu, How to use Hulu Watch Party, HBO Max Watch Party, Watch Party HBO Max, HBO Watch Party, HBO Go Watch Party, HBO Party, HBO Max Party, Disney Plus Party, Disney Plus Watch Party, Watch Party Disney Plus, How to do a Watch Party on Disney Plus, Disney Watch Party, Disney Party, Watch Party on Disney Plus, How to Host a Disney Plus Watch Party, Disney Plus Group Watch, Hotstar Party, Hotstar Watch Party, Hotstar Party Chrome Extension, Hotstar Watch Party Extension, Prime Watch Party, Amazon Prime Video Party, Paramount Plus Watch Party, Paramount Party, Peacock TV Party, Peacock Watch Party, Peacock Party, "}
+                </span>
+                <Link href={"/"}>Teleparty</Link>,{" "}
+                <Link href={"/french"}>Teleparty Extension</Link> ,
+                <Link href={"/german"}>Teleparty Chrome Extension</Link> ,{" "}
+                <Link href={"/turkish"}> How to use Teleparty</Link>,
+                <Link href={"/spanish"}> Install Teleparty</Link>,{" "}
+                <Link href={"/portuguese"}>Netflix Party</Link> , Netflix Watch
+                Party, Netflix Party Extension, Netflix Party Chrome Extension,
+                How to Netflix Party, How to use Netflix Party, How to do
+                Netflix Party, How to do a Netflix Party, How to Watch Netflix
+                Together, Hulu Watch Party, Hulu Party, Watch Party Hulu, How to
+                use Hulu Watch Party, HBO Max Watch Party, Watch Party HBO Max,
+                HBO Watch Party, HBO Go Watch Party, HBO Party, HBO Max Party,
+                Disney Plus Party, Disney Plus Watch Party, Watch Party Disney
+                Plus, How to do a Watch Party on Disney Plus, Disney Watch
+                Party, Disney Party, Watch Party on Disney Plus, How to Host a
+                Disney Plus Watch Party, Disney Plus Group Watch, Hotstar Party,
+                Hotstar Watch Party, Hotstar Party Chrome Extension, Hotstar
+                Watch Party Extension, Prime Watch Party, Amazon Prime Video
+                Party, Paramount Plus Watch Party, Paramount Party, Peacock TV
+                Party, Peacock Watch Party, Peacock Party
               </p>
             </div>
             <div className={styles["popular-searches"]}>
