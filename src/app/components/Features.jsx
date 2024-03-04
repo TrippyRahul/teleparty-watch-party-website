@@ -20,6 +20,7 @@ const Features = ({ data }) => {
               controls
               autoPlay
               muted
+              id="features"
             >
               <source type="features/mp4" />
               Your browser does not support the video tag.

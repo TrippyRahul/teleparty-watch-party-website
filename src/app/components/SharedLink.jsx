@@ -13,11 +13,12 @@ const SharedLink = ({ data }) => {
           <div className={styles.videoContainer}>
             {" "}
             <video
-              src="/video.mp4"
+              src="/stream-anything.mp4"
               className={styles.video}
               autoPlay
               muted
               controls
+              id="streamanything"
             >
               <source type="video/mp4" />
               Your browser does not support the video tag.

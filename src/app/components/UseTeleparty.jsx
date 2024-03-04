@@ -30,6 +30,7 @@ const UseTeleparty = ({ data }) => {
               autoPlay
               muted
               controls
+              id="poster"
             >
               <source type="video/mp4" />
               Your browser does not support the video tag.

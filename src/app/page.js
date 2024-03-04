@@ -6,6 +6,7 @@ import HowToUse from "./components/HowToUse";
 import Features from "./components/Features";
 import SharedLink from "./components/SharedLink";
 import Footer from "./components/Footer";
+import Schema from "./Schema";
 
 const data = {
   useTeleparty: {
@@ -164,6 +165,7 @@ const data = {
 export default function Home() {
   return (
     <>
+      <Schema />
       <UseTeleparty data={data.useTeleparty} />
       <Benefits data={data.benefits} />
       <HowToUse data={data.howToUse} />

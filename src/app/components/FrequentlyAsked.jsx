@@ -20,6 +20,7 @@ const FrequentlyAsked = ({ questions, title }) => {
               controls
               autoPlay
               muted
+              id="faq"
             >
               <source type="/allScreen.mp4" />
               Your browser does not support the video tag.

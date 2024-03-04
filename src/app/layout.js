@@ -1,5 +1,3 @@
-import Schema from "./Schema";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 import "./globals.css";
@@ -48,22 +46,8 @@ export default function RootLayout({ children }) {
           `,
           }}
         />
-        <Script
-          id="schema"
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: `
-              @context: https://schema.org/,
-              @type: WebSite,
-              name: Teleparty,
-              url: https://www.teleparty.pro/,
-              
-         `,
-          }}
-        />
       </head>
       <body>
-        <Schema />
         <Header />
         {children}
       </body>

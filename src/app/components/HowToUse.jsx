@@ -47,11 +47,12 @@ const HowToUse = ({ data }) => {
         <div className={styles.left}>
           <div className={styles.videoContainer}>
             <video
-              src="/video.mp4"
+              src="/how-to-install.mp4"
               className={styles.video}
               autoPlay
               muted
               controls
+              id="how-to-install"
             >
               <source type="video/mp4" />
               Your browser does not support the video tag.
