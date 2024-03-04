@@ -7,16 +7,7 @@ const Schema = () => {
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            {
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              name: "Teleparty",
-              url: "https://www.teleparty.pro/",
-            },
-            null,
-            "\t"
-          ),
+          __html: `{"@context": "https://schema.org","@type": "WebSite",name: "Teleparty",url: "https://www.teleparty.pro/",}`,
         }}
         id="schema"
       />
