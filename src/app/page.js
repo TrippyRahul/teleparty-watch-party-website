@@ -165,7 +165,6 @@ const data = {
 export default function Home() {
   return (
     <>
-      <Schema />
       <UseTeleparty data={data.useTeleparty} />
       <Benefits data={data.benefits} />
       <HowToUse data={data.howToUse} />

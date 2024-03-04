@@ -1,3 +1,4 @@
+import Schema from "./Schema";
 import Header from "./components/Header";
 
 import "./globals.css";
@@ -48,6 +49,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <Schema/>
         <Header />
         {children}
       </body>
