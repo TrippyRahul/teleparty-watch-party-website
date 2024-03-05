@@ -32,6 +32,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/teleparty.svg" />
         <meta
+          name="google-adsense-account"
+          content="ca-pub-4939229192346726"
+        ></meta>
+        <meta
           name="google-site-verification"
           content="ynENXlWtPezmLw33y-47cICDIlytiz2-Gu8xNbKv0mQ"
         />
