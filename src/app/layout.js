@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="ynENXlWtPezmLw33y-47cICDIlytiz2-Gu8xNbKv0mQ"
         />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16481035725" />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-RE7D09237N" />
         <Script
           id="gtm-script"
           dangerouslySetInnerHTML={{
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-16481035725');
+            gtag('config', 'G-RE7D09237N');
           `,
           }}
         />
