@@ -39,8 +39,11 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="ynENXlWtPezmLw33y-47cICDIlytiz2-Gu8xNbKv0mQ"
         />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-RE7D09237N" />
         <Script
+          strategy="beforeInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-RE7D09237N" />
+        <Script
+          strategy="beforeInteractive"
           id="gtm-script"
           dangerouslySetInnerHTML={{
             __html: `
@@ -52,6 +55,7 @@ export default function RootLayout({ children }) {
           }}
         />
         <Script
+          strategy="beforeInteractive"
           id="taboola-script"
           dangerouslySetInnerHTML={{
             __html: `
